@@ -4,3 +4,6 @@
 [submodule "src/github.com/bitly/go-simplejson"]
 	path = src/github.com/bitly/go-simplejson
 	url = https://github.com/bitly/go-simplejson.git
+[submodule "src/github.com/garyburd/redigo"]
+	path = src/github.com/garyburd/redigo
+	url = https://github.com/garyburd/redigo.git
