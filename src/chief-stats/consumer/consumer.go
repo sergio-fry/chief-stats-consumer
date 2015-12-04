@@ -23,7 +23,8 @@ func main() {
 		// number of connections to keep open with redis
 		"pool": "30",
 		// unique process id for this instance of workers (for proper recovery of inprogress jobs on crash)
-		"process": "1",
+		"process":   "1",
+		"namespace": "chiefstats",
 	})
 
 	http.HandleFunc("/api/p/v", func(w http.ResponseWriter, r *http.Request) {
