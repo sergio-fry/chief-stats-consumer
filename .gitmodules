@@ -1,0 +1,6 @@
+[submodule "src/github.com/jrallison/go-workers"]
+	path = src/github.com/jrallison/go-workers
+	url = https://github.com/jrallison/go-workers.git
+[submodule "src/github.com/bitly/go-simplejson"]
+	path = src/github.com/bitly/go-simplejson
+	url = https://github.com/bitly/go-simplejson.git
